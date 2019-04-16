@@ -1,0 +1,5 @@
+f = open('E:\\python\\fish c\\homework\\OpenMe.mp3')
+e = open('E:\\python\\fish c\\homework\\OpenMe.txt','a')
+e.write(f.read())
+f.close()
+e.close()
